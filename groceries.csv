@@ -1,21 +1,21 @@
-id,name,category,price,salePrice,purchases,isDelivery,isOrganic,alsoPurchased
-1,Strawberry,fruit,5,3,1000,TRUE,TRUE,"4,3,20"
-2,Salmon,meat,10,,1402,TRUE,TRUE,"1,17,6"
-3,Banana,fruit,1,,2017,FALSE,FALSE,"2,4,14"
-4,Orange,fruit,1,,1573,TRUE,TRUE,"2,5,8"
-5,Chicken,meat,8,6,812,TRUE,FALSE,"7,14,18"
-6,Apple,fruit,2,1,1921,FALSE,TRUE,"11,12,13"
-7,Tuna,meat,9,,712,FALSE,TRUE,"1,3,4"
-8,Spinach,vegetable,2,,1430,FALSE,TRUE,"5,6,9"
-9,Broccoli,vegetable,3,,1573,TRUE,FALSE,"12,13,16"
-10,Cabbage,vegetable,2,,2312,TRUE,TRUE,"8,9,11"
-11,Cheese,dairy,12,6,1201,FALSE,FALSE,"6,9,10"
-12,Milk,dairy,4,3,1413,TRUE,TRUE,"3,4,15"
-13,Duck,meat,20,,214,FALSE,FALSE,"6,14,18"
-14,Ketchup,condiment,3,,438,TRUE,FALSE,"15,16,20"
-15,Salt,condiment,1,,2148,TRUE,FALSE,"3,4,8"
-16,Pepper,condiment,1,,2018,TRUE,FALSE,"9,12,14"
-17,Carrot,vegetable,4,,1430,FALSE,FALSE,"12,16,20"
-18,Mushroom,vegetable,8,6,690,FALSE,TRUE,"8,9,19"
-19,Corn,vegetable,2,,1403,TRUE,TRUE,"4,6,8"
-20,Pear,fruit,4,2,1212,TRUE,TRUE,"8,11,16"
+id,name,category,price,salePrice,purchases,isDelivery,isOrganic,alsoPurchased,img,description
+1,Strawberry,fruit,5,3,1000,TRUE,TRUE,"4,3,20",https://groceries-tpab.s3-us-west-1.amazonaws.com/strawberry.jpeg,a sweet soft red fruit with a seed-studded surface.
+2,Salmon,meat,10,,1402,TRUE,TRUE,"1,17,6",https://groceries-tpab.s3-us-west-1.amazonaws.com/salmon.jpg,"a large edible fish that is a popular game fish, much prized for its pink flesh. Salmon mature in the sea but migrate to freshwater streams to spawn."
+3,Banana,fruit,1,,2017,FALSE,FALSE,"2,4,14",https://groceries-tpab.s3-us-west-1.amazonaws.com/banana.jpg,a long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.
+4,Orange,fruit,1,,1573,TRUE,TRUE,"2,5,8",https://groceries-tpab.s3-us-west-1.amazonaws.com/orange.jpg,a round juicy citrus fruit with a tough bright reddish-yellow rind.
+5,Chicken,meat,8,6,812,TRUE,FALSE,"7,14,18",https://groceries-tpab.s3-us-west-1.amazonaws.com/chicken.jpg,"a domestic fowl kept for its eggs or meat, especially a young one."
+6,Apple,fruit,2,1,1921,FALSE,TRUE,"11,12,13",https://groceries-tpab.s3-us-west-1.amazonaws.com/apple.jpg,"the round fruit of a tree of the rose family, which typically has thin red or green skin and crisp flesh. Many varieties have been developed as dessert or cooking fruit or for making cider."
+7,Tuna,meat,9,,712,FALSE,TRUE,"1,3,4",https://groceries-tpab.s3-us-west-1.amazonaws.com/tuna.jpg,"a large and active predatory schooling fish of the mackerel family. Found in warm seas, it is extensively fished commercially and is popular as a game fish."
+8,Spinach,vegetable,2,,1430,FALSE,TRUE,"5,6,9",https://groceries-tpab.s3-us-west-1.amazonaws.com/spinach.jpg,"a widely cultivated edible Asian plant of the goosefoot family, with large, dark green leaves that are eaten raw or cooked as a vegetable."
+9,Broccoli,vegetable,3,,1573,TRUE,FALSE,"12,13,16",https://groceries-tpab.s3-us-west-1.amazonaws.com/broccoli.jpg,a cultivated variety of cabbage bearing heads of green or purplish flower buds that are eaten as a vegetable.
+10,Cabbage,vegetable,2,,2312,TRUE,TRUE,"8,9,11",https://groceries-tpab.s3-us-west-1.amazonaws.com/cabbage.jpg,"a cultivated plant eaten as a vegetable, having thick green or purple leaves surrounding a spherical heart or head of young leaves."
+11,Cheese,dairy,12,6,1201,FALSE,FALSE,"6,9,10",https://groceries-tpab.s3-us-west-1.amazonaws.com/cheese.jpg,a food made from the pressed curds of milk.
+12,Milk,dairy,4,3,1413,TRUE,TRUE,"3,4,15",https://groceries-tpab.s3-us-west-1.amazonaws.com/milk.jpg,"an opaque white fluid rich in fat and protein, secreted by female mammals for the nourishment of their young."
+13,Duck,meat,20,,214,FALSE,FALSE,"6,14,18",https://groceries-tpab.s3-us-west-1.amazonaws.com/duck.jpg,"a waterbird with a broad blunt bill, short legs, webbed feet, and a waddling gait."
+14,Ketchup,condiment,3,,438,TRUE,FALSE,"15,16,20",https://groceries-tpab.s3-us-west-1.amazonaws.com/ketchup.jpg,"a smooth sauce made chiefly from tomatoes and vinegar, used as a condiment."
+15,Salt,condiment,1,,2148,TRUE,FALSE,"3,4,8",https://groceries-tpab.s3-us-west-1.amazonaws.com/salt.jpg,a white crystalline substance that gives seawater its characteristic taste and is used for seasoning or preserving food.
+16,Pepper,condiment,1,,2018,TRUE,FALSE,"9,12,14",https://groceries-tpab.s3-us-west-1.amazonaws.com/pepper.jpg,"a pungent, hot-tasting powder prepared from dried and ground peppercorns, commonly used as a spice or condiment to flavor food."
+17,Carrot,vegetable,4,,1430,FALSE,FALSE,"12,16,20",https://groceries-tpab.s3-us-west-1.amazonaws.com/carrot.jpg,a tapering orange-colored root eaten as a vegetable.
+18,Mushroom,vegetable,8,6,690,FALSE,TRUE,"8,9,19",https://groceries-tpab.s3-us-west-1.amazonaws.com/mushroom.jpg,"a fungal growth that typically takes the form of a domed cap on a stalk, with gills on the underside of the cap."
+19,Corn,vegetable,2,,1403,TRUE,TRUE,"4,6,8",https://groceries-tpab.s3-us-west-1.amazonaws.com/corn.jpg,"a North American cereal plant that yields large grains, or kernels, set in rows on a cob. Its many varieties yield numerous products, highly valued for both human and livestock consumption."
+20,Pear,fruit,4,2,1212,TRUE,TRUE,"8,11,16",https://groceries-tpab.s3-us-west-1.amazonaws.com/pear.jpg,"a yellowish- or brownish-green edible fruit that is typically narrow at the stalk and wider toward the base, with sweet, slightly gritty flesh."
