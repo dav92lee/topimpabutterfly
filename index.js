@@ -36,3 +36,9 @@ app.get("/groceries", (req, res, next) => {
 
     res.json(GROCERIES_RES);
 });
+
+app.get("/categories", (req, res, next) => {
+    var CATEGORIES = [...new Set(GROCERIES.map((g) => g.category))];
+
+    res.json(CATEGORIES);
+});
