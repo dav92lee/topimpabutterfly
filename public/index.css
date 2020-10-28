@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page {
+    display: flex;
+}
+
+#sidebar {
+    background-color: white;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#logoSection {
+    margin: 2rem;
+}
+
+#logo {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+
+#sublogo {
+}
+
+#content {
+    height: 100vh;
+    flex: 1;
+    background-color: #eeeff3;
+}
+
+#divider {
+    margin: 1rem 0;
+    width: 100%;
+    height: 0.1rem;
+    background-color: #eeeff4;
+}
+
+#navButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.navButton:hover {
+    cursor: pointer;
+    opactiy: 0.8;
+}
+
+.navButton {
+    margin-top: 2rem;
+}
+
+#content {
+}
+#contentTitle {
+    margin: 2rem;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "topimpabutterfly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dav92lee/topimpabutterfly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dav92lee/topimpabutterfly/issues"
+  },
+  "homepage": "https://github.com/dav92lee/topimpabutterfly#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.3",
+    "express": "^4.17.1",
+    "node": "^15.0.1"
+  }
+}
