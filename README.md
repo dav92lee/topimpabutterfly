@@ -12,13 +12,15 @@ Our goal today is to set up an ecommerce marketplace (KC Groceries) to shop for 
 2. if you don't have npm install npm [here](https://www.npmjs.com/get-npm)
 3. `cd` into the project directory and run `npm install`
 4. `npm start` should start the server
-5. `http://localhost:3000/` will allow you to access the
+5. `http://localhost:3000/` will allow you to access the webpage `index.html`
+6. in `public` folder you will find two files, `index.css` and `index.js` which will allow you to add styling and javascript to your project.
 
 ## TODO
 
-1. Define customers, users and their use respective cases
+1. Define customers and their use respective cases
 2. Code marketplace site to browse the products
 3. Add any additional pages/functionality
+4. _Bonus_ Responsive Design
 
 ## API
 
@@ -41,3 +43,9 @@ returns a list of all groceries sold by KC Groceries
 ### 2. `/categories`
 
 returns a list of grocery categories
+
+## Additional Notes
+
+Please feel free to install any additional packages or libraries you feel might be helpful for your development speed.
+
+We've taken the liberty of sourcing fontawesome as well as jquery in the project, but please feel free to use `create-react-app` or `angular` or any of those tools you feel confident in setting up quickly.

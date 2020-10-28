@@ -5,6 +5,7 @@ body {
 
 #page {
     display: flex;
+    width: 100vw;
 }
 
 #sidebar {
@@ -49,7 +50,7 @@ body {
 
 .navButton:hover {
     cursor: pointer;
-    opactiy: 0.8;
+    opacity: 0.8;
 }
 
 .navButton {
@@ -57,7 +58,41 @@ body {
 }
 
 #content {
+    flex: 1;
+    position: relative;
+    overflow: scroll;
 }
+#contentHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
 #contentTitle {
-    margin: 2rem;
+    font-size: 2rem;
+}
+
+#searchBar {
+    background-color: white;
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 2px;
+}
+
+#searchInput {
+    border: none;
+    outline: none;
+    width: 16rem;
+}
+
+#searchIcon {
+    color: grey;
+}
+
+#contentBody {
+    padding: 2rem;
+    height: 200vh;
 }
