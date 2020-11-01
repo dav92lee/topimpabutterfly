@@ -6,6 +6,8 @@ At First Technologies, we are trying to redefine not only how consumers view cus
 
 Our goal today is to set up an ecommerce marketplace (KC Groceries) to shop for some 3d printed foods we've engineered (this is a joke!) over the past few months.
 
+Please spend the first 10 minutes thinking through the prompt, the next 20 minutes talking us through your design choices and your plan, and the last 2.5 hours building out your solution.
+
 ## Set Up Instructions
 
 1. clone the project

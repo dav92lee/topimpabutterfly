@@ -1,5 +1,6 @@
 var csv = require("csv-parser");
 var fs = require("fs");
+var cors = require('cors')
 var express = require("express");
 var path = require("path");
 var app = express();
