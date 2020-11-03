@@ -16,8 +16,14 @@ fs.createReadStream("groceries.csv")
         console.log("CSV file successfully processed");
     });
 
-app.listen(3000, () => {
-    console.log("Server running on port 3000");
+var corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204 
+}
+app.use(cors(corsOptions));
+
+app.listen(5000, () => {
+    console.log("Server running on port 5000");
 });
 
 app.use(express.static("public"));
